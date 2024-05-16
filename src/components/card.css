@@ -1,0 +1,102 @@
+
+.card-group {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+  }
+  
+  .xereca h1 {
+    font-size: 40px;
+    padding: 5rem;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+  }
+  .xereca {
+    margin-top: 2%;
+    align-items: center;
+    display: flex;
+  }
+  .flight {
+    margin-left: -40px;
+    transform: rotate(350deg);
+    font-size: 70px;
+    color: rgb(250, 103, 6);
+  }
+  .card {
+    border-radius: 8px;
+    width: 290px;
+    height: 380px;
+    background: #eef;
+    -webkit-box-shadow: 4px 6px 31px -3px rgba(255,136,8,1);
+    -moz-box-shadow: 4px 6px 31px -3px rgba(255,136,8,1);
+    box-shadow: 4px 6px 31px -3px rgba(255,136,8,1);
+    font-family: "Montserrat", sans-serif;
+
+  }
+.card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px 8px 0 0;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    align-self: flex-end;
+  } 
+  .info h1 {
+    font-weight: 300;
+  }
+  .info p {
+    padding: 3%;
+    display: flex;
+    text-align: center;
+  }
+
+  .btn-course { 
+    margin-top: 20px;
+    margin-bottom: 10%;
+    width: 200px;
+    height: 40px;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #f08b07; 
+    color:#f08b07; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+  }
+  .btn-course a { 
+    font-size:14px;
+    text-decoration: none;
+    color: #f08b07;
+  }
+.btn-course:hover,
+.btn-course:hover * {
+  color: #fff; /* Altera a cor de todo o conteúdo do botão para branco (#fff) */
+}
+  .btn-course:hover  {
+ 
+    border-radius: 0.25rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    background-color:#f08b07;
+    color:#fff; 
+    border-radius: 5px; 
+    transition: 0.5s;
+    letter-spacing: 2px;
+  }
+  .btn-course a:hover  {
+    color:#fff; 
+  }
