@@ -1,18 +1,34 @@
-import { Link } from 'react-router-dom'
-import '../components/navbarStyle.css'
+import { Link } from "react-router-dom";
+import "../components/navbarStyle.css";
+import { CiUser } from "react-icons/ci";
 
 function Navbar() {
-    return(
-        <header>
-            <div className="logo">
-                <h1>TripGraphix</h1>
-            </div>
-            <ul className="links">
-              <Link to="/local" ><li>Regiões</li></Link>  
-                <li>Cidades</li>
-                <li>Locais Mais Visitados</li>
-            </ul>
-        </header>
-    )
+  return (
+    <header>
+      <Link to="/">
+        <div className="logo">
+          <h1>Recicla</h1>
+        </div>
+      </Link>
+      <ul className="links">
+        <Link to="/produtos">
+          <li>Produtos</li>
+        </Link>
+        <Link to="/fale-conosco">
+          <li>Fale conosco</li>
+        </Link>
+
+        <Link to="/fale-conosco">
+          <li>Localização</li>
+        </Link>
+
+        <Link to="/fale-conosco">
+          <li style={{ fontSize: "22px" }}>
+            <CiUser />
+          </li>
+        </Link>
+      </ul>
+    </header>
+  );
 }
-export default Navbar
+export default Navbar;

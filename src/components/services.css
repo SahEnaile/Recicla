@@ -1,0 +1,71 @@
+.circles {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #164930;
+  margin-top: 5rem;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  gap: 1rem;
+}
+
+.circle-1 {
+  background-color: #164930;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-2 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  background-color: #164930;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-3 {
+  background-color: #164930;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-4 {
+  background-color: #164930;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-service {
+  color: #fff;
+  font-size: 120pt;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

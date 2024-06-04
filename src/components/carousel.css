@@ -1,32 +1,36 @@
 .all {
-    background-color: #ecebeb;
+  background-color: #ecebeb;
 }
 .Carousel {
-    
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .prev {
-    color: #000;
-    left:0;
+  color: #000;
+  left: 0;
 }
 .next {
-    color: #000;
-    right:0;
+  color: #000;
+  right: 0;
 }
 button {
-    position: absolute;
-    top: 35%;
-    transform: translateY(-50%);
-    background-color:#fff; /* cor de fundo do botão */
-    color: white;
-    border-radius: 20px;
-    padding: 10px 12px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  img {
-    width: 100%;
-    height: 500px;
-  }
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  background-color: #fff; /* cor de fundo do botão */
+  color: white;
+  border-radius: 20px;
+  padding: 10px 12px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+}
+.hidden {
+  display: none;
+  color: red;
+}
